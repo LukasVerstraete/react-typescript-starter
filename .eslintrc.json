@@ -3,7 +3,6 @@
 		"browser": true,
 		"node": true
 	},
-
 	"parser": "@typescript-eslint/parser", // Specifies the ESLint parser
 	"parserOptions": {
 		"ecmaVersion": 2020, // Allows for the parsing of modern ECMAScript features
@@ -28,7 +27,6 @@
 	"plugins": ["prettier"],
 	"rules": {
 		"prettier/prettier": ["error", { "endOfLine": "auto" }],
-		"no-var-requires": false,
 		"spaced-comment": "off",
 		"no-console": "warn",
 		"consistent-return": "off",
